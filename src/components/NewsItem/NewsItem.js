@@ -38,4 +38,16 @@ NewsItem.propTypes = {
   urlNews: PropTypes.string,
 };
 
-export default NewsItem;
+NewsItem.defaultProps = {
+  imageUrl: "",
+  alt: "News image",
+  description: "No description available.",
+  title: "No title available.",
+  channel: "Unknown source",
+  published: "Unknown date",
+  urlNews: "#",
+};
+
+
+export default React.memo(NewsItem);
+

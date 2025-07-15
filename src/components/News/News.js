@@ -10,6 +10,8 @@ import { header } from "../../config/config";
 import { endpointPath } from "../../config/api";
 import { Container, Header, card } from "./index";
 
+ 
+
 function News(props) {
   const { newscategory, country } = props;
   const [articles, setArticles] = useState([]);
