@@ -67,3 +67,9 @@ This News App is licensed under the [MIT License](LICENSE). Feel free to use, mo
 ## Acknowledgements
 
 - This app utilizes the GNews public API for fetching news articles. Visit their website for more information: [GNews API](https://gnews.io/)
+
+## Refactoring & Optimization
+
+- Added memoization to prevent unnecessary re-renders.
+- Added default props and improved PropTypes for type safety and fallback.
+- Enhanced performance and maintainability.
