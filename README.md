@@ -73,3 +73,4 @@ This News App is licensed under the [MIT License](LICENSE). Feel free to use, mo
 - Added memoization to prevent unnecessary re-renders.
 - Added default props and improved PropTypes for type safety and fallback.
 - Enhanced performance and maintainability.
+- Detailed description of changes can be found in the [REPORT.md](./REPORT.md) file in this repository.
